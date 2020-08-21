@@ -18,9 +18,8 @@ class MathEquatations:
     def count_product_of_list(sequence:list) -> float:
         a = 1
         for i in sequence:
-            a *=i
+            a *= i
         return a
-
 
     @staticmethod
     def operation_with_arithmetic_sequence(sequence:list) -> float:
@@ -31,8 +30,6 @@ class MathEquatations:
         return statistics.median(sequence)*(math.pi/2) + sys.float_info.epsilon
 
 
-print(MathEquatations.operation_with_arithmetic_sequence([1,2,3,4,5,6]))
-print(MathEquatations.equatations_with_median([1,2,3,4,5,6]))
 
 
 
