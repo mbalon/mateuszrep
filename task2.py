@@ -1,12 +1,3 @@
-"""Dobór w pary. Każda osoba wykonuje samodzielnie zadanie.
-Napisz dwie klasy o odpowiednich nazwach i designie które będą zawierały implementację następujących funkcji
-oblicza pierwiastek kwadratowy z:
-sumy zadanego jako argument ciągu liczb, podzielonej przez iloczyn tego ciągu
-
-wyznacza medianę liczb, wymnożoną przez połowę PI i na końcu zwiększoną o stałą Epsilon
-
-Dopisz odpowiednie testy jednostkowe """
-
 import math
 import statistics
 import sys
@@ -14,7 +5,7 @@ import sys
 class MathEquatations:
 
 
-
+    
     def count_product_of_list(sequence:list) -> float:
         a = 1
         for i in sequence:
